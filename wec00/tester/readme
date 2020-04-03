@@ -3,9 +3,13 @@ Testers for weekend challenge 00
 
 To test a project's functionality:
 	-put the .c in a folder
-	-python test_rendu foldername
-	-./test.out
+	-python test_rendu.py foldername [studentlogin]
+
+To test a project's execution time:
+	-put the .c in a folder
+	-python speed_rendu.py foldername [studentlogin]
 
 TODO : 
-	-Another tester to compare execution time of each project
+	-Another tester to compare execution time of each project [DONE]
+	-ADD MORE TESTS, the more test we have the more precise the speed_tester will be !
 
