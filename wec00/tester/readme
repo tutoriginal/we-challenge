@@ -9,12 +9,14 @@ To test a project's execution time:
 	-put the .c in a folder
 	-python speed_rendu.py foldername [studentlogin]
 
+To generate random tests:
+	-remove 2 last lines of srcs/speed_test.c
+	-python /srcs/test_gen.py nbtest >> srcs/speed_test.c
+
 Correction guidelines:
 	-Test the functionality of each student's work with test_rendu.py
 	-python speed_rendy.py foldername studentlogin >> result.txt
 	-Compare score in result.txt, lowest score is the fastest strlen and highest score the slowest
 	-Read all source codes to find the most creative one
 	
-TODO : 
-	-ADD MORE TESTS, the more test we have the more precise the speed_tester will be !
 
