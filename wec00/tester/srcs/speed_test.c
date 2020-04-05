@@ -48,5 +48,46 @@ int main()
 	print_speed("Sur un malentendu ceci est la derniere entrée et comme ca on aura 30 tests tout rond et ce sera super propre");
 	print_speed("ah bah non en fait");
 
-	printf("Score = %llu\n", average_score /= n); // The higher the score the slower is the function on average
+print_speed("|W=TkB|L`kxy[ypeR}g6m:G3^");
+print_speed("F3GdB:FHXqlmAd2J'}Gv%wx67B=o5&Xd__ZJ8xw:3l.AW");
+print_speed("yCbx!W5hl;Zop#R(jN/+5KOc&nW");
+print_speed("Sd%=h.>F!e39<HLW5xsskW2t|E^v/z5FPqx6iQ*'I6GQEt|=a");
+print_speed("}lvs1LW0MK_XW1^>I/>dlo_#aU{DS`j<1J;1FG=!w3!>[Wf9i*4[vc&{&SnO8*#x*8sy:]9k9@waf%z&73");
+print_speed("4V69Dp8{R}{S/>SkNm4E#6pVX7;SEIt:OeIQW|.`}py(gBO");
+print_speed("Xfzbz.*|UihxXSK.>Um=;JThbP5dV+(#`Vf('2Xz5';M.!rU$^xYk}JR:/>");
+print_speed("dK#Gm{Q%_gh($`:1Cj]g%*n1JD94=inQq#-bvYFN5zNz|WCQOp`pzy.+=0a");
+print_speed("mP>_S");
+print_speed("Rf)c|Ex5gTgYwL>aK8F7(4O!;flQrHUWDx6fm'-tZNCxHkCBg0HV>pY6^&+dtA0j<sQ<(Ku'V:('z*tobFrw.:@V-2_cK/h3M:+K/W3zGfeP*]8b+m&ds<{Q{.M");
+print_speed("OI2A-|1cY%U=`E+qN|`h5X");
+print_speed("5+/]Edk2Mbo87:NCZxjr*i/RuTGuf]d`FmxN96qs3P`LakL");
+print_speed("F&cKViJ}&,;|D{XA<1jsx29>Z-<|d2_b)b7-8PT}>vtNuOuv@c]-)-''=y+pjdISvWK<ccLBelR>hJ+4*e");
+print_speed("<kQa'4>kkwpwn<0)}uJ2Oe#ma{BI>-cebusZa]6(Zt{3l+Hvr@5XJzv,l*dMyZ'xYU}Pp.4yGT&+S$");
+print_speed("](D&du[D");
+print_speed("nSA9),qcdm^`/J.H})5h.DB,F[O<W4@3L;G.)CnT");
+print_speed("YMc!N>JRqor6MUwVFOGT)y%},tuvPq7&QF)JYWBq/n$e(!R[Z79Z=0V>[_w$ls3Q;`;%%!znIEQJX)*nS=SiN{Z4w*_P'#^POlKmB_ec8#p");
+print_speed("'jDN=hpcc0wsNEY(,^mEZ5F.%hm");
+print_speed("QnqB5OJgu|R0$BQ|3VO#A5kQ@MCx1L7G#,KvJr5Q!)_Io.PGR2/r8QWP9]O6$%YNM[D");
+print_speed("7%[8@ncgTamTozi'@bU]O%");
+print_speed("BBpvBTT]g|il]Q+*w]]b%>K)!ME}n1C,e9f*rL!yc'");
+print_speed("taXmXtWY.MkL{td6HNo&K/KB&W}li0G@c+i$aVY}=Dsz%fW6BzD41N<8m+``");
+print_speed("WYI<162qq&,*Mkwhe%.ko<nS[wOCg%+X61S&jVqjcA+Ik7atAnl;{!7_");
+print_speed("n><uwVaC^NBaCrf^bYL^-mcQt9D{<bXl,{]AL)#Rd,[.q!j^sVgKtrHg2c_p0w|@zs/kz5[YM]/c4mAhbn");
+print_speed("57);-k:P#v.DrRb>J-_|dcI)Sj+!F;PkqrR-9zD|");
+print_speed("Aq-w8<:^+:4>4R9lDVU|-z:r(m4,Xo<KCd>G;d!5c$-4nV$AG");
+print_speed("@T0>wm.1H^H5$T.8W`>Ax'YM`$");
+print_speed("b6A5uugad5/hPU/@;");
+print_speed("&=k>LzVn[ckg`ERFBY)M}_6ap#MSoAgSWYzpFL0+Q@)zp1F3y&LyMYf=!Xy");
+print_speed(".dD;7`*B)N");
+print_speed("tt#49x7mq#Wma8z*_-V8>m(H7Lx9.ZMF:iTKvQ$m1TH#x0t^Dj}");
+print_speed("04Z5ohdZ[%^y5u-Bu+M;[*DBUCvjxLBq2S)X2Xe&9@BZ24miz9R{(In2Q]UoId.W,6kGx>");
+print_speed("9pa[7,^J{akF*@C[/5XoW'aL!><}zA(|PS/%;");
+print_speed("|rbG=GTOC]av}-`5yyIts*(jVm0g^p^&0-lzWJVx=yE,+8WWj%tl-@U007X7@FEE7yh9[x_mR%{)Gqt=.3Dh>x");
+print_speed("UupuJ&&O^j}(bh!c;%!vUb8Ni-;F([a7WDK*6Gd!<uhj<NJzO0Uh$Fk(BUj8nZ");
+print_speed("c'df8NSi<d24Gp}*ldKCBWt*css!w@=Hl;Lqy");
+print_speed("t=I9z4>|v1PrS}Wpj9ELYz3e>}#S]l*gWGH=$[UiMMm@]7#rDG}g@s*7");
+print_speed("/.M:CESlFFt]+7oE'1<(=");
+print_speed("^AR!@GuY6BXFgkO9&l^yPit'^(<!5;REU87%/XJ![^&jjPZ1+DO2{nV2Bh#ngE^d|:oUD4:,u1G#bD@6!]#^Mt[OwE|km'w$QEw3LN05j4c9F");
+print_speed("BveD*Sd/$bgQi,Vs)k/{uK>`{@<if@!tt$,i<`HGI");
+printf("Score = %llu\n", average_score/n); // The higher the score the slower is the function on average
 }
+
