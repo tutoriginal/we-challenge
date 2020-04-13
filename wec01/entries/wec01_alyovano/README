@@ -1,0 +1,74 @@
+Man morsec()
+----------------------------------------------------------------------------------
+Morse ou > morsec()
+Traduit une string en entree ecrite en morse vers un alphabet classique.
+Si l'input contient des parasites tels que :
+$> .- fdfdgg .. hgfh -..- hgf ////// .-/../-.-/.- fdgdfggd.f-gd.-
+Les parasites sont ignores, si un caractere morse est invalide, il est intereprete selon sa premiere occurence
+$> ..-.... <- Ce caractere n'existe pas mais sa derniere occurence etait 'F', on retient dont 'F'.
+
+Bonus ;
+-Le flag -r fait l'inverse. ex: $> ./morsec -r "COUCOU"
+$> -.-. --- ..- -.-. --- ..-$ | cat -e
+Et force le saut a la ligne.
+
+Adds ;
+-Vous pouvez ajoutez un saut a la ligne (au choix) avec le code morse "....."
+-J'ai choisi d'ajouter deux autres codes morse qui sont ".-.-" pour le '.' et "----" pour le '-',
+ce qui veut dire que vous pouvez ecrire du morse... en morse ... 
+voila voila, le confinement tout ca ...
+
+
+Si le programme est lance avec 2 arguments $> ./morsec "LOLILOL"
+- Le 2e argument sera toujours condidere comme une string.
+Si le programme est lance avec 3 argument $> ./morsec -r "LOLILOL"
+-Le 3e argument est toujours considere comme une string.
+
+
+
+Alyovano
+-------------------------------------------------------------------------------------
+
+
+Table morse;
+
+A .-
+B -...
+C -.-.
+D -..
+E .
+F ..-.
+G --.
+H ....
+I ..
+J .---
+K -.-
+L .-..
+M --
+N -.
+O ---
+P .--.
+Q --.-
+R .-.
+S ...
+T -
+U ..-
+V ...-
+W .--
+X -..-
+Y -.--
+Z --..
+? ---.
+- ----
+. .-.-
+\n .....
+
+******************************************************
+* to use;                                            *
+*                                                    *
+* $> ./morse "Message (ex): .- .-.. . -..- .. ..."   *
+* Press enter. (Si jamais mdr)                       *
+*                                                    *
+* Morse_inter will returns 0;                        *
+* but, if the system call fails, then it returns -1. *
+******************************************************

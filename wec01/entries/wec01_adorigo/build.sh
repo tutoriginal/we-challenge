@@ -1,0 +1,1 @@
+gcc morsec.c to_human.c to_morse.c morsec_utils.c libft/libft.a -Wall -Wextra -Werror -o morsec; cat README.txt
