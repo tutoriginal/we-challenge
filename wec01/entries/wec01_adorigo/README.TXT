@@ -15,4 +15,4 @@ the -r does not return errors in case you feed it a character that is not a dict
 
 
 ps : there is a norme error in the morsec.c file, it is a bug from the norminette that was confirmed by the paris bocal, there are no indentation problems, just ugly code
-pps: I also didn't have the time to fix the errors given to me by valgrind for the bonus, and the leaks sorry :(
+

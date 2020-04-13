@@ -6,7 +6,7 @@
 /*   By: adorigo <adorigo@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/10 13:44:28 by adorigo           #+#    #+#             */
-/*   Updated: 2020/04/12 21:43:27 by adorigo          ###   ########.fr       */
+/*   Updated: 2020/04/12 22:44:45 by adorigo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,5 @@ int			main(int ac, char **av)
 		return (ft_printf("an error occured \n"));
 	close(morsec.fd);
 	free_struct(&morsec);
-	ft_printf("%d\n", ret);
 	return (ret);
 }

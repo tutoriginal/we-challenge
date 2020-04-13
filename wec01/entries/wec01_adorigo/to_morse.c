@@ -6,7 +6,7 @@
 /*   By: adorigo <adorigo@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/12 14:16:02 by adorigo           #+#    #+#             */
-/*   Updated: 2020/04/12 21:53:20 by adorigo          ###   ########.fr       */
+/*   Updated: 2020/04/12 22:32:54 by adorigo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,40 +17,45 @@ int	ft_translation_to_morse(t_morse *morsec)
 	int		i;
 	int		j;
 	int		len_morse;
-	int		len_str;
+	char	*temp;
+	char	*tmp;
 
 	if (!(morsec->str_fin = calloc(1, sizeof(char) + 1)))
 		return (0);
 	i = -1;
 	while (morsec->str[++i])
 	{
-		len_str = ft_strlen(morsec->str_fin);
 		j = -1;
 		while (morsec->alpha[++j])
 		{
 			len_morse = ft_strlen(morsec->alpha[j]) - 1;
 			if (ft_toupper(morsec->str[i]) == morsec->alpha[j][0])
 			{
-				if (!(morsec->str_fin = realloc(morsec->str_fin,
-						ft_strlen(morsec->str_fin) + len_morse + 1)))
-					return (0);
-				morsec->str_fin = ft_strjoin(morsec->str_fin,
-						ft_substr(morsec->alpha[j], 2, len_morse - 1));
+				temp = ft_strdup(morsec->str_fin);
+				free(morsec->str_fin);
+				morsec->str_fin = ft_strjoin(temp,
+						(tmp = ft_substr(morsec->alpha[j], 2, len_morse - 1)));
+				free(temp);
+				free(tmp);
 				break ;
 			}
 			else if (morsec->str[i] == ' ')
 			{
-				if (!(morsec->str_fin = realloc(morsec->str_fin,
-					ft_strlen(morsec->str_fin) + 3)))
-					return (0);
-				morsec->str_fin = ft_strjoin(morsec->str_fin, "/");
+				temp = ft_strdup(morsec->str_fin);
+				free(morsec->str_fin);
+				morsec->str_fin = ft_strjoin(temp, "/");
+				free(temp);
 				break ;
 			}
 		}
-		morsec->str_fin = ft_strjoin(morsec->str_fin, " ");
+		temp = ft_strdup(morsec->str_fin);
+		free(morsec->str_fin);
+		morsec->str_fin = ft_strjoin(temp, " ");
+		free(temp);
 	}
-	if (!(morsec->str_fin = realloc(morsec->str_fin, i + sizeof(char))))
-		return (0);
-	morsec->str_fin = ft_strjoin(morsec->str_fin, "\0");
+	temp = ft_strdup(morsec->str_fin);
+	free(morsec->str_fin);
+	morsec->str_fin = ft_strjoin(temp, "\0");
+	free(temp);
 	return (1);
 }
