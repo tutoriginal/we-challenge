@@ -6,11 +6,11 @@
 #    By: ancoulon <ancoulon@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/04/30 12:37:01 by ancoulon          #+#    #+#              #
-#    Updated: 2020/04/30 12:58:29 by ancoulon         ###   ########.fr        #
+#    Updated: 2020/05/01 10:48:47 by ancoulon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= client
+NAME		= mini-tcp
 
 CC			= gcc
 

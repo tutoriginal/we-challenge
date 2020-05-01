@@ -6,11 +6,16 @@
 /*   By: ancoulon <ancoulon@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/30 12:31:00 by ancoulon          #+#    #+#             */
-/*   Updated: 2020/04/30 17:11:47 by ancoulon         ###   ########.fr       */
+/*   Updated: 2020/05/01 10:49:18 by ancoulon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "wec03.h"
+
+/*
+* This function is an implementation of the djb2 hashing function
+* modified to accept a file path instead of a string.
+*/
 
 unsigned long	hash_file(char *path)
 {
